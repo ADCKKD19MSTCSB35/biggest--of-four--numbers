@@ -1,0 +1,48 @@
+mport java.io.*;
+import java.util.*;
+class Demo
+ {
+	public static void main(String args[])
+ { 
+           int a,b,c,d;
+           Scanner big= new Scanner(System.in);
+             System.out.println("Enter 'a' value:\n");
+           a=big.nextInt();
+             System.out.println("Enter 'b' value:\n");
+           b=big.nextInt();
+             System.out.println("Enter 'c' value:\n");
+           c=big.nextInt();
+             System.out.println("Enter 'd' value:\n");
+           d=big.nextInt();
+ if((a>b)&&(a>c))
+    {
+ 	if(a>d)
+ 	       System.out.println("a is big");
+ 	 else
+               System.out.println("d is big");
+    }
+         else if((b>c)&&(b>d))
+    {       
+              System.out.println("b is big");
+    }
+         else if(c>d)
+    {    
+              System.out.println("c is big");
+    }
+         else
+    {          
+             System.out.println("d is big");
+    }
+    }
+    }
+OUTPUT:
+Enter ' a' value : 
+45
+Enter 'b' value:
+56
+Enter 'c' value:
+21
+Enter 'd'  value:
+9
+b is big
+
